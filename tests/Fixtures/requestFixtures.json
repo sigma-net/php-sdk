@@ -1,0 +1,133 @@
+[
+  {
+    "notification_type": "pay",
+    "id": 12345,
+    "partner_payment_id": "100",
+    "order": {
+      "amount": 10,
+      "currency": "RUB",
+      "description": "Test Payment"
+    },
+    "token": "1-62aebd0e3a-3dae1e0976-73f96a4bc1",
+    "wallet": {
+      "id": 1,
+      "amount": 8.5,
+      "currency": "RUB"
+    },
+    "create_date": "2017-12-25T00:07:19+00:00",
+    "ip": "127.0.0.1",
+    "status": "successful",
+    "payment_method": {
+      "type": "card",
+      "account": "420000xxxxxx0000"
+    },
+    "custom_parameters": {
+      "email": "vasia@gmail.com",
+      "order_id": "515"
+    },
+    "is_test": true
+  },
+  {
+    "notification_type": "pay",
+    "id": 12345,
+    "order": {
+      "amount": 10,
+      "currency": "RUB",
+      "description": "Test Payment"
+    },
+    "token": "1-62aebd0e3a-3dae1e0976-73f96a4bc1",
+    "wallet": {
+      "id": 1,
+      "amount": 8.5,
+      "currency": "RUB"
+    },
+    "create_date": "2017-12-25T00:07:19+00:00",
+    "ip": "127.0.0.1",
+    "status": "error",
+    "status_description": "Отказ банка в совершении операции.",
+    "error_details": {
+      "error": "general_decline",
+      "description": "Отказ банка в совершении операции."
+    },
+    "payment_method": {
+      "type": "card",
+      "account": "420000xxxxxx0000"
+    },
+    "custom_parameters": {
+      "email": "vasia@gmail.com",
+      "order_id": "515"
+    },
+    "is_test": true
+  },
+  {
+    "notification_type": "check",
+    "id": 789,
+    "order": {
+      "amount": 10000,
+      "currency": "RUB",
+      "description": "Payment"
+    },
+    "token": "1-72aebd0e3a-3dae1e0976-73f96a4bc1",
+    "wallet": {
+      "id": 1,
+      "amount": 8.5,
+      "currency": "RUB"
+    },
+    "create_date": "2017-12-25T00:07:19+00:00",
+    "ip": "127.0.0.1",
+    "status": "successful",
+    "payment_method": {
+      "type": "card",
+      "account": "420000xxxxxx0000"
+    },
+    "custom_parameters": {
+      "email": "vasia@gmail.com",
+      "order_id": "515"
+    }
+  },
+  {
+    "notification_type": "refund",
+    "id": 456789,
+    "partner_payment_id": "102",
+    "order": {
+      "amount": 10,
+      "currency": "USD"
+    },
+    "token": "1-999999-3dae1e0976-73f96a4bc1",
+    "wallet": {
+      "id": 1,
+      "amount": 100.5,
+      "currency": "USD"
+    },
+    "refund": {
+      "amount": -10.5,
+      "currency": "USD",
+      "reason": "Refund order"
+    },
+    "create_date": "2017-12-25T00:07:19+00:00",
+    "ip": "127.0.0.1",
+    "status": "successful",
+    "payment_method": {
+      "type": "card",
+      "account": "420000xxxxxx0000"
+    },
+    "custom_parameters": {
+      "email": "vasia@gmail.com",
+      "order_id": "515"
+    }
+  },
+  {
+    "notification_type": "wait_capture",
+    "id": 7890000000,
+    "order": {
+      "amount": 1,
+      "currency": "RUB"
+    },
+    "token": "1-72aebd0e3a-3dae1e0976-73f96a4bc1",
+    "wallet": {
+      "id": 1000000
+    },
+    "create_date": "2017-12-25T00:07:19+00:00",
+    "status": "successful"
+  }
+]

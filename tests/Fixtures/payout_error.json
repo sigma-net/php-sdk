@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "transaction_id": "test_payment_error",
+  "status": "error",
+  "create_date": "2017-12-25T00:07:19+00:00",
+  "update_date": "2017-12-25T00:07:19+00:00",
+  "payout_method": {
+    "method": "qiwi",
+    "type": "card_ru",
+    "account": "79081234567"
+  },
+  "wallet": {
+    "id": 5,
+    "amount": 11.00,
+    "currency": "RUB"
+  },
+  "fee": {
+    "type": "wallet",
+    "amount": 1.00,
+    "currency": "RUB"
+  },
+  "transfer": {
+    "amount": 10.00,
+    "currency": "RUB"
+  },
+  "error_details": {
+    "error": "general_decline",
+    "description": "Отказ банка в совершении операции."
+  }
+}

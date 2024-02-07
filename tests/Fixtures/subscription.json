@@ -1,0 +1,99 @@
+{
+  "token": "123432-token-token-token",
+  "status": "active",
+  "parent_payment": {
+    "id": 2107,
+    "order": {
+      "amount": 10,
+      "currency": "RUB",
+      "description": "Hold Testing"
+    },
+    "wallet": {
+      "amount": 9,
+      "currency": "RUB",
+      "id": 1
+    },
+    "token": "2107-2300919aec-7a0babc629-7feef3f6be",
+    "create_date": "2019-02-08T12:06:24+00:00",
+    "update_date": "2019-02-08T12:07:03+00:00",
+    "ip": "127.0.0.1",
+    "status": "successful",
+    "payment_method": {
+      "type": "card",
+      "account": "424242xxxxxx4242"
+    },
+    "subscription": {
+      "token": "123432-token-token-token",
+      "status": "active"
+    },
+    "available_full_refund": true,
+    "available_partial_refund": true,
+    "available_for_refund": {
+      "amount": 15,
+      "currency": "RUB"
+    },
+    "is_test": false
+  },
+  "payments": [
+    {
+      "id": 2110,
+      "partner_payment_id": "1",
+      "order": {
+        "amount": 10,
+        "currency": "RUB",
+        "description": "Hold Testing"
+      },
+      "wallet": {
+        "amount": 9,
+        "currency": "RUB",
+        "id": 1
+      },
+      "token": "2110-2a46cc73cb-69939efe74-2157de242d",
+      "create_date": "2019-02-08T12:13:49+00:00",
+      "update_date": "2019-02-08T12:38:54+00:00",
+      "ip": "127.0.0.1",
+      "status": "successful",
+      "payment_method": {
+        "type": "card",
+        "account": "424242xxxxxx4242"
+      },
+      "available_full_refund": true,
+      "available_partial_refund": true,
+      "available_for_refund": {
+        "amount": 10,
+        "currency": "RUB"
+      },
+      "is_test": false
+    },
+    {
+      "id": 2111,
+      "partner_payment_id": "2",
+      "order": {
+        "amount": 10,
+        "currency": "RUB",
+        "description": "Testing"
+      },
+      "wallet": {
+        "amount": 9,
+        "currency": "RUB",
+        "id": 1
+      },
+      "token": "2111-6e24622246-3d25365174-f0e2622d11",
+      "create_date": "2019-02-08T12:34:47+00:00",
+      "update_date": "2019-02-08T12:38:57+00:00",
+      "ip": "127.0.0.1",
+      "status": "successful",
+      "payment_method": {
+        "type": "card",
+        "account": "424242xxxxxx4242"
+      },
+      "available_full_refund": true,
+      "available_partial_refund": true,
+      "available_for_refund": {
+        "amount": 10,
+        "currency": "RUB"
+      },
+      "is_test": false
+    }
+  ]
+}

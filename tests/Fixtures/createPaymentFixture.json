@@ -1,0 +1,31 @@
+{
+  "id": 12345,
+  "partner_payment_id": "test_payment_1",
+  "order": {
+    "amount": 10,
+    "currency": "RUB",
+    "description": "Test Payment"
+  },
+  "token": "1-62aebd0e3a-3dae1e0976-73f96a4bc1",
+  "wallet": {
+    "id": 1,
+    "amount": 1.88,
+    "currency": "USD"
+  },
+  "payer": {
+    "amount": 2,
+    "currency": "USD"
+  },
+  "extra": {
+    "amount": 0.12,
+    "currency": "USD"
+  },
+  "create_date": "2017-12-25T00:07:19+00:00",
+  "expire_date": "2017-12-26T00:07:19+00:00",
+  "status": "init",
+  "custom_parameters": {
+    "email": "vasia@gmail.com",
+    "order_id": "515"
+  },
+  "payment_url": "https://kacca.com/pay/1-62aebd0e3a-3dae1e0976-73f96a4bc1"
+}

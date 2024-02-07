@@ -1,0 +1,62 @@
+{
+  "id": 12345,
+  "order": {
+    "amount": 10,
+    "currency": "RUB",
+    "description": "Test Payment"
+  },
+  "token": "1-62aebd0e3a-3dae1e0976-73f96a4bc1",
+  "wallet": {
+    "id": 1,
+    "amount": 8.5,
+    "currency": "RUB"
+  },
+  "create_date": "2017-12-25T00:07:19+00:00",
+  "expire_date": "2017-12-30T00:07:19+00:00",
+  "ip": "127.0.0.1",
+  "status": "successful",
+  "status_description": "Status description",
+  "payment_method": {
+    "type": "card",
+    "account": "420000xxxxxx0000",
+    "rrn": 123
+  },
+  "custom_parameters": {
+    "email": "vasia@gmail.com",
+    "order_id": "515"
+  },
+  "refunds": [
+    {
+      "id": 918,
+      "order": {
+        "amount": -5,
+        "currency": "RUB",
+        "description": "TestOrder"
+      },
+      "refund": {
+        "amount": -5,
+        "currency": "RUB",
+        "reason": "Refund reason"
+      },
+      "wallet": {
+        "amount": -5,
+        "currency": "RUB",
+        "id": 1
+      },
+      "token": "918-a90b9d19c6-9d9aece2a6-cee12ff8b6",
+      "create_date": "2018-05-31T13:43:57+03:00",
+      "update_date": "2018-05-31T13:43:57+03:00",
+      "status": "refund",
+      "payment_method": {
+        "type": "card",
+        "account": "420000xxxxxx0000"
+      },
+      "custom_parameters": {
+        "email": "vasia@gmail.com",
+        "order_id": "515"
+      },
+      "is_test": true
+    }
+  ],
+  "is_test": true
+}

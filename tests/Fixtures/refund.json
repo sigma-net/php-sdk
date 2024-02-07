@@ -1,0 +1,31 @@
+{
+  "id": 941,
+  "order": {
+    "amount": -5,
+    "currency": "RUB",
+    "description": "TestOrder"
+  },
+  "refund": {
+    "amount": -5,
+    "currency": "RUB",
+    "reason": "Refund payment #123"
+  },
+  "wallet": {
+    "amount": -5,
+    "currency": "RUB",
+    "id": 1
+  },
+  "token": "941-64b901f656-fb9c727eeb-a03c327d40",
+  "create_date": "2018-06-01T17:03:25+03:00",
+  "update_date": "2018-06-01T17:03:25+03:00",
+  "status": "refund",
+  "payment_method": {
+    "type": "card",
+    "account": "420000xxxxxx0000"
+  },
+  "custom_parameters": {
+    "email": "vasia@gmail.com",
+    "order_id": "515"
+  },
+  "is_test": true
+}

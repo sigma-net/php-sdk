@@ -1,0 +1,41 @@
+{
+  "id": 12345,
+  "transaction_id": "test_payment_1",
+  "status": "successful",
+  "create_date": "2017-12-25T00:07:19+00:00",
+  "update_date": "2017-12-25T00:07:19+00:00",
+  "payout_method": {
+    "method": "qiwi",
+    "type": "card_ru",
+    "account": "79081234567",
+    "rrn": "123",
+    "card": {
+      "fingerprint": "466e12e0-fd27-4a80-8b0c-20eef193500f",
+      "category": "shopping",
+      "brand": "VISA",
+      "country": "RU",
+      "bank": "Test Bank Name",
+      "type": "card_ru",
+      "is3ds": false,
+      "auth_type": "unknown"
+    }
+  },
+  "wallet": {
+    "id": 5,
+    "amount": 11.00,
+    "currency": "RUB"
+  },
+  "fee": {
+    "type": "wallet",
+    "amount": 1.00,
+    "currency": "RUB"
+  },
+  "transfer": {
+    "amount": 10.00,
+    "currency": "RUB"
+  },
+  "request": {
+    "amount": 10.00,
+    "currency": "RUB"
+  }
+}

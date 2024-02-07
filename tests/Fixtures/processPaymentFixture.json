@@ -1,0 +1,54 @@
+{
+  "id": 12345,
+  "order": {
+    "amount": 10,
+    "currency": "RUB",
+    "description": "Test Payment"
+  },
+  "token": "1-62aebd0e3a-3dae1e0976-73f96a4bc1",
+  "wallet": {
+    "id": 1,
+    "amount": 8.5,
+    "currency": "RUB"
+  },
+  "payer": {
+    "amount": 10,
+    "currency": "RUB"
+  },
+  "extra": {
+    "amount": 1.5,
+    "currency": "RUB"
+  },
+  "create_date": "2017-12-25T00:07:19+00:00",
+  "expire_date": "2017-12-26T00:07:19+00:00",
+  "ip": "127.0.0.1",
+  "status": "process",
+  "payment_method": {
+    "type": "card",
+    "account": "420000xxxxxx0000",
+    "card": {
+      "fingerprint": "99999-fd27-4a80-8b0c-20eef193500f",
+      "category": "shopping",
+      "brand": "VISA",
+      "country": "RU",
+      "bank": "Test Bank Name",
+      "type": "card_ru",
+      "is3ds": false,
+      "auth_type": "unknown"
+    }
+  },
+  "custom_parameters": {
+    "email": "vasia@gmail.com",
+    "order_id": "515"
+  },
+  "status_description": "Тест статуса",
+  "is_test": true,
+  "authorization": {
+    "action": "http://superbank.com/auth.php",
+    "method": "POST",
+    "params": {
+      "PaReq": "Nkshkuehnkf7LsKNSFEPwqnf[98u23f",
+      "MD": "123456"
+    }
+  }
+}
